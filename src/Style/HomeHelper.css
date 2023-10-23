@@ -1,0 +1,14 @@
+.logo{
+    height: 80px;
+    border-radius: 30%;
+}
+.navbar{
+    background-color: rgb(27,50,91);
+    width: 100%;
+  
+}
+.linkbtn{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
