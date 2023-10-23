@@ -10,7 +10,8 @@ const setFaculty = (data) => {
     }
 }
 
-const url = "http://localhost:5000"
+// const url = "http://localhost:5000"
+const url = process.env.SERVER_URL;
 
 const fetchStudentsHelper = (data) => {
     return {
