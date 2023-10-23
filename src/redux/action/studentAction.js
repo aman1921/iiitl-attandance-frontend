@@ -4,7 +4,7 @@ import jwt_decode from 'jwt-decode';
 import { SET_STUDENT, SET_ERRORS_HELPER, SET_ERRORS, STUDENT_UPDATE_PASSWORD, SET_OTP, SET_FLAG } from '../actionTypes'
 
 // const url = "http://localhost:5000"
-const url = process.env.SERVER_URL;
+const url = process.env.REACT_APP_API_URL;
 
 export const setChatHistory = (data) => {
     return {

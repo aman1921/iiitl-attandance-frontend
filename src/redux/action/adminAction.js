@@ -7,7 +7,7 @@ import {
 } from '../actionTypes'
 
 // const url = "http://localhost:5000"
-const url = process.env.SERVER_URL;
+const url = process.env.REACT_APP_API_URL;
 
 const setAdmin = (data) => {
     return {
